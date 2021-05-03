@@ -1,1 +1,1 @@
-[Test](test.md)
+[Test](test)
