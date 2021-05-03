@@ -1,5 +1,5 @@
 # Hello!
-Hi, i'm Tresquel!
+Hi, I'm Tresquel!
 
 I don't really do much here.
 
