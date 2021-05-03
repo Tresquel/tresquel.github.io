@@ -11,7 +11,7 @@ More incoming...
 
 
 ## Social Media
-Those are my social media I have:
+These are my social media I have:
 * [Youtube](https://www.youtube.com/channel/UCfYmEGEzFasfDZD_m8273Sw)
 * [Instagram](https://www.instagram.com/memiarka/)
 * [Twitch](https://www.twitch.tv/tresquelo)
