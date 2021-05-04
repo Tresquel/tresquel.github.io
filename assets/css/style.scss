@@ -5,18 +5,17 @@
 // this is the original style file copied from https://github.com/pages-themes/minimal/blob/master/_sass/jekyll-theme-minimal.scss
 // im gonna make it dark theme
 @import "fonts";
-@import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: #252525;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#e2e2e2;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:rgb(228, 228, 228);
   margin:0 0 20px;
 }
 
@@ -33,11 +32,11 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#cecece;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#bbbbbb;
 }
 
 a {
@@ -52,13 +51,13 @@ a:hover, a:focus {
 
 a small {
   font-size:11px;
-  color:#777;
+  color:rgb(173, 173, 173);
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:rgb(156, 156, 156);
 }
 
 .wrapper {
@@ -67,7 +66,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #252525;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -75,14 +74,14 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color:rgb(216, 216, 216);
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #252525;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #252525;
   overflow-x: auto;
 }
 
@@ -94,16 +93,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #1b1b1b;
 }
 
 dt {
-  color:#444;
+  color:rgb(231, 231, 231);
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:rgb(182, 182, 182);
 }
 
 img {
@@ -176,7 +175,7 @@ ul.downloads {
 }
 
 strong {
-  color:#222;
+  color:rgb(228, 228, 228);
   font-weight:700;
 }
 
@@ -188,7 +187,7 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#252525;
 }
 
 section {
@@ -203,7 +202,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#252525;
   height:1px;
   margin:0 0 20px;
 }
@@ -234,7 +233,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #252525;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -287,6 +286,218 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:rgb(228, 228, 228);
   }
+}
+
+// had to copy this from rouge-github.scss cuz the code color wouldnt change
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .c, .highlight .cd {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  color: #707070;
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  color: #707070;
+  font-style: italic;
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .gi {
+  color: #707070;
+  background-color: #ddffdd;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .kd {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kv {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .mf {
+  color: #009999;
+}
+.highlight .mh {
+  color: #009999;
+}
+.highlight .il {
+  color: #009999;
+}
+.highlight .mi {
+  color: #009999;
+}
+.highlight .mo {
+  color: #009999;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #009999;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .bp {
+  color: #999999;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .o {
+  color: #707070;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: #313131;
 }
